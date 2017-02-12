@@ -1,0 +1,508 @@
+@charset "UTF-8";
+body{
+	font-family:'Source Code Pro', monospace;
+}
+
+/*NAVIGATION:*/
+
+.nav-mobile{
+	width:100%;
+	height:60px;
+	position:fixed;
+	float:left;
+	padding:0;
+	background-color:#314840;
+	z-index:10;
+	-moz-transition:all 600ms ease-in-out;
+  -o-transition:all 600ms ease-in-out;
+  transition:all 600ms ease-in-out;
+  -webkit-transition:all 600ms ease-in-out;
+}
+
+.logo-mobile{
+	height:60px;
+	width:60px;
+	background-image:url(../images/chipboard%20logo.jpg);
+  	background-repeat:no-repeat;
+  	background-size:contain;
+  	margin:0;
+  	display:inline-block;
+  	float:left;
+	-moz-transition:all 600ms ease-in-out;
+  -o-transition:all 600ms ease-in-out;
+  transition:all 600ms ease-in-out;
+  -webkit-transition:all 600ms ease-in-out;
+  }
+
+.nav-mobile h4{
+	color:#ffffff;
+	margin:10px;
+	margin-left:20px;
+	display:inline-block;
+}
+
+.menuglyph-mob{
+	float:right;
+	color:#ffffff;
+	font-size:20px;
+	display:inline-block;
+	margin:20px;
+}
+
+.nav-mobile-space{
+	width:100%;
+	height:60px;
+	display:block;
+}
+
+.nav-mobile-menu{
+	position:fixed;
+	display:none !important;
+	width:100%;
+	height:100%;
+	top:0;
+	background-color:#373737;
+	-moz-transition:all 600ms ease-in-out;
+  -o-transition:all 600ms ease-in-out;
+  transition:all 600ms ease-in-out;
+  -webkit-transition:all 600ms ease-in-out;
+  z-index:11;
+}
+
+.nav-dropdown-mobile-open{
+	display:block !important;
+}
+
+.mobile-nav-exit-block{
+	height:10vh;
+	padding:2.5vh;
+}
+
+.glyphicon-remove-circle{
+	float:right;
+	color:#FFFFFF;
+	font-size:5vh;
+}
+
+.menu-links-mobile{
+	text-align:center;
+}
+
+.menu-link-mobile{
+	display:block;
+	color:white;
+	height:13vh;
+	font-size:4vh;
+}
+
+.menu-link-mobile:hover{
+	color:#d0bd99;
+}
+
+.menu-link-mobile:active{
+	color:#85754E;
+}
+
+.menu-link-mobile div{
+	position:relative;
+	width:40vh;
+	margin:0 auto;
+	border-bottom:1px solid #7eb189;
+	padding:3.5vh;
+}
+
+.contact-link{
+	padding:3.5vh;
+}
+
+.social-media-icons-mob{
+	text-align:center;
+	margin-top:5vh;
+}
+
+.soc-med-icon{
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	background-color:#99c4a1;
+	display:inline-block;
+	margin:3px;
+	padding:15px;
+}
+
+.email-logo{
+	width:29px;
+	margin-top:4px;
+}
+
+.linkedin-logo{
+	height:29px;
+}
+
+.instagram-logo{
+	height:29px;
+}
+
+.navUpButton-mobile{
+	padding:15px;
+	text-align:center;
+	color:#ffffff;
+}
+
+.logo{
+  width:25vh;
+  height:25vh;
+  background-image:url(../images/chipboard%20logo.jpg);
+  background-repeat:no-repeat;
+  background-size:contain;
+  position:fixed;
+  top:0;
+  left:0;
+  -moz-transition:all 600ms ease-in-out;
+  -o-transition:all 600ms ease-in-out;
+  transition:all 600ms ease-in-out;
+  -webkit-transition:all 600ms ease-in-out;
+  z-index:10;
+}
+
+.nav-top{
+  width:35vh;
+  height:17vh;
+  background-color:#314840;
+	background-image:url(../images/tiles-top1-01.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+  position:fixed;
+  top:0;
+  right:0;
+  padding:4vh;
+  z-index:10;
+}
+
+.nav-top h2{
+	color:#ffffff;
+	margin-top:0;
+	float:left;
+	font-size:4vh;
+}
+
+.menuglyph1{
+	float:right;
+	color:#ffffff;
+	font-size:3vh;
+	margin-top:5vh;
+	opacity:0;
+}
+
+.nav-dropdown{
+  width:35vh;
+  height:50vh;
+  background-color:#558460;
+	background-image:url(../images/tiles-bottom1-01.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+  position:fixed;
+  right:0;
+  top:17vh;
+  z-index:10;
+  padding-top:6vh;
+}
+
+.page-link-box{
+	height:8.3vh;
+	display:block;
+	color:#ffffff;
+}
+
+.page-link-box div{
+	display:inline-block;
+	width:22vh;
+	padding:2.5vh;
+	text-align:center;
+}
+
+
+.page-link-box:hover{
+	background-color:rgba(0, 0, 0, 0.5);
+	color:#ffffff;
+}
+
+.bracket-left{
+	height:6vh;
+	display:inline-block;
+	float:left;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	margin-left:5vh;
+	fill:none;
+	stroke:#b59b71;
+	stroke-linecap:round;
+	stroke-miterlimit:10;
+	stroke-width:3px;
+	stroke-dasharray: 80;
+    stroke-dashoffset: 80;
+}
+
+.bracket-right{
+	height:6vh;
+	display:inline-block;
+	float:right;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	margin-right:5vh;
+	fill:none;
+	stroke:#b59b71;
+	stroke-linecap:round;
+	stroke-miterlimit:10;
+	stroke-width:3px;
+	stroke-dasharray: 80;
+    stroke-dashoffset: 80;
+}
+
+@keyframes draw {
+  	0% {
+		stroke-dasharray: 80;
+    	stroke-dashoffset: 80;
+		stroke-width:3px;
+  	}
+  	100% {
+		stroke-dasharray: 80;
+    	stroke-dashoffset: 0;
+		stroke-width:3px;
+  	}
+}
+
+.page-link-box:hover .bracket-left{
+	-webkit-animation:0.5s draw ease-in-out forwards;
+	animation: draw 0.5s ease-in-out forwards;
+}
+
+@keyframes dash {
+  	from {
+		stroke-dasharray: 80;
+    	stroke-dashoffset: 160;
+		stroke-width:3px;
+  	}
+  	to {
+		stroke-dasharray: 80;
+    	stroke-dashoffset: 80;
+		stroke-width:3px;
+  	}
+}
+
+.page-link-box:hover .bracket-right{
+	-webkit-animation: 0.5s dash ease-in-out reverse forwards;
+	animation: dash 0.5s ease-in-out reverse forwards;
+}
+
+.navUpButton{
+	width:100%;
+	height:12vh;
+	text-align:center;
+	padding-top:3vh;
+}
+
+.menuglyph2{
+	color:#ffffff;
+	font-size:3vh;
+	bottom:0;
+	opacity:1;
+}
+
+.menu-link{
+	color:white;
+}
+
+/*ELASTICSTACK*/
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.elasticstack {
+	position: relative;
+	margin: 15vh auto 150px auto;
+	padding: 0;
+	width: 325px;
+	height: 380px;
+	list-style: none;
+	-webkit-perspective: 1000px;
+	-webkit-perspective-origin: 50% 150%;
+	perspective: 1000px;
+	perspective-origin: 50% 150%;
+}
+
+.no-js .elasticstack {
+	max-width: 1090px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.elasticstack li {
+	position: absolute;
+	z-index: 1;
+	width: 320px;
+	height: 370px;
+	border-width: 15px 15px 70px 15px;
+	border-style: solid;
+	border-color: #fff;
+	box-shadow: 0 10px 7px -7px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.1);
+	opacity: 0;
+	cursor: pointer;
+	-webkit-transform: translate3d(0,0,-180px);
+	transform: translate3d(0,0,-180px);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.no-js .elasticstack li {
+	position: relative;
+	display: inline-block;
+	opacity: 1;
+	margin: 10px;
+	cursor: default;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.elasticstack li img {
+	display: block;
+}
+
+.containertester{
+	width:620px;
+}
+
+.boxtester{
+	height:290px;
+	width:290px;
+	background-color:#373737;
+}
+
+.elasticstack li p {
+	margin: 0 5px;
+	color: #373737;
+	height: 20px;
+	text-align: right;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.elasticstack .polaroid-title{
+	padding-top:2px;
+}
+
+.elasticstack .description{
+	font-size:12px;
+	height:10px;
+	text-align:center;
+}
+
+.elasticstack li.animate {
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.elasticstack li.move-back {
+	/* http://matthewlein.com/ceaser/ */
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+}
+
+/*PAGE CONTENT*/
+
+.title{
+  height:110px;
+  text-align:center;
+  padding:50px;
+}
+
+.instructions{
+	text-align:center;
+	margin-top:25px;
+}
+
+/*FOOTER*/
+
+.footer-space{
+	height:25vh;
+	z-index:2;
+	bottom:0px;
+	padding-bottom:0;
+	margin-top:15vh;
+}
+
+.footer{
+  position:fixed;
+  background-color:#373737;
+  width:100%;
+  height:25vh;
+  z-index:1;
+  bottom:0;
+  -moz-transition:all 600ms ease-in-out;
+  -o-transition:all 600ms ease-in-out;
+  transition:all 600ms ease-in-out;
+  -webkit-transition:all 600ms ease-in-out;
+}
+
+.closed{
+	height:0;
+}
+
+.rights{
+	color:#ffffff;
+	display:inline-block;
+	padding:2vh;
+}
+
+.status{
+	display:inline-block;
+	color:#ffffff;
+	padding:2vh;
+}
+
+.footer p {
+	font-size:1.8vh;
+}
+
+.footer a{
+	color:#7eb189;
+}
+
+.footer a:hover{
+	color:#d0bd99;
+}
+
+.footer-email{
+	text-align:center;
+}
+
+.footer-mobile{
+	width:100%;
+	height:150px;
+	background-color:#373737;
+	margin-top:20px;
+}
+
+.footer-mobile-text{
+	padding:20px;
+	color:#ffffff;
+	text-align:center;
+	font-size:12px;
+}
+
+.footer-mobile-text a{
+	color:#7eb189;
+}
+
+.footer-mobile-text a:hover{
+	color:#d0bd99;
+}
