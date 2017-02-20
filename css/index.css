@@ -649,7 +649,6 @@ container-fluid{
 }
 
 .bakery-img{
-	background-image:url(../images/bakery.JPG);
 	background-repeat: no-repeat;
 	background-position: center -6vw;
 	background-size: cover;
@@ -667,7 +666,6 @@ container-fluid{
 }
 
 .borough-img{
-	background-image:url(../images/borough.jpg);
 	background-repeat:no-repeat;
 	background-position:center 0;
 	background-size:cover;
@@ -687,7 +685,6 @@ container-fluid{
 }
 
 .tree-img{
-	background-image:url(../images/tree.JPG);
 	background-repeat:no-repeat;
 	background-position:center -6vw;
 	background-size:cover;
@@ -705,7 +702,6 @@ container-fluid{
 }
 
 .tube-img{
-	background-image:url(../images/tube.JPG);
 	background-repeat:no-repeat;
 	background-position:center -6vw;
 	background-size:cover;

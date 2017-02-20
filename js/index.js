@@ -8,6 +8,12 @@ $(window).load(function(){
 });
 });
 
+//**LAZY LOAD PARALLAX IMGS:
+
+$(function() {
+	$('.lazy').lazy();
+});
+
 //**NAV & FOOTER FOR LG & MD:
 
 var scrollLog = 0;

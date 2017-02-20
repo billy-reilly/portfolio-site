@@ -22,7 +22,7 @@
   
 <!--PRELOADER: -->
 
-<!--<div class="preloader"></div>-->
+<div class="preloader"></div>
   
 <div class="preloader-container">
 	<div class="inner-container">
@@ -31,7 +31,7 @@
 		<p class="loading">loading...</p>
 		<p class="ready">ready</p>
 	</div>
-</div>  
+</div>
   
 <!-- NAVIGATION: --> 
 <div class="nav-mobile visible-xs visible-sm closed">
@@ -138,7 +138,7 @@
 
 <ul id="scene1" data-invert-x="true" data-invert-y="true" data-scalar-x="50" data-scalar-y="30">
 	<li class="layer S1" data-depth="0.8"><img class="imgS1" src="images/concept board images/man-hole.JPG" alt=""></li>
-	</ul>
+</ul>
 
 <ul id="scene2">
     <li class="layer S2 visible-xs visible-sm" data-depth="0.2"><img class="imgS2" src="images/concept board images/polaroid1-01.png"></li>
@@ -155,7 +155,7 @@
 
 <ul id="scene5">
 	<li class="layer S5" data-depth="0.2"><img class="imgS5" src="images/concept board images/lined-page.svg" alt=""></li>
-    </ul>
+</ul>
 
 <ul id="scene6" data-scalar-x="60" data-limit-y="20">
     <li class="layer S6" data-depth="0.2"><img class="imgS6" src="images/concept board images/polaroid3-01.svg" alt=""></li>
@@ -181,7 +181,7 @@
 
 <ul id="scene11" data-invert-x="false" data-invert-y="true" data-scalar-x="80" data-scalar-y="20">
 	<li class="layer S11 hidden-xs hidden-sm" data-depth="0.9"><img class="imgS11" src="images/concept board images/steel-beams.jpg" alt=""></li>
-   </ul>
+</ul>
 
 <ul id="scene12" data-invert-x="false" data-invert-y="true" data-scalar-x="60" data-scalar-y="20">
    <li class="layer S12 visible-xs visible-sm" data-depth="0.9"><img class="imgS12" src="images/concept board images/steel-beams.jpg" alt=""></li> 
@@ -245,7 +245,7 @@
 <div class="row">
 
 <div class="parallax-container bakery-container col-xs-6">
-	<div class="parallax-img bakery-img"></div>
+	<div class="parallax-img bakery-img lazy" data-src="images/bakery.JPG"></div>
 </div>
 
 <div class="bakery-text-container col-xs-6">
@@ -261,7 +261,7 @@
 
 <div class="row">
 <div class="parallax-container borough-container col-xs-6 col-xs-offset-6">
-	<div class="parallax-img borough-img"></div>
+	<div class="parallax-img borough-img lazy" data-src="images/borough.jpg"></div>
 </div>
 
 <div class="borough-text-container">
@@ -278,7 +278,7 @@
 
 <div class="row">
 <div class="parallax-container tree-container col-xs-6">
-	<div class="parallax-img tree-img"></div>
+	<div class="parallax-img tree-img lazy" data-src="images/tree.JPG"></div>
 </div>
 
 <div class="tree-text-container">
@@ -293,7 +293,7 @@
 
 <div class="row">
 <div class="parallax-container tube-container col-xs-6">
-	<div class="parallax-img tube-img"></div>
+	<div class="parallax-img tube-img lazy" data-src="images/tube.JPG"></div>
 </div>
 
 <div class="tube-text-container">
@@ -338,6 +338,7 @@
   
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lazy.min.js"></script>
     
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
     
